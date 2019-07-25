@@ -40,7 +40,7 @@ Authorization : Bearer <ACCESS_TOKEN_RECIEVED_AFTER_SIGNIN>
 ```
 
 Database connect url and token secret are stored in `.env` file.
-**dotenv** node module is used to loads environment variables from a .env file into process.env
+[dotenv](https://github.com/motdotla/dotenv) node module is used to loads environment variables from a .env file into process.env
 
 
 
@@ -55,18 +55,18 @@ To start the api server
 ```
 npm start
 ```
-It's configured to start the app in **nodemon**. This can be changed in package.json scripts
-**nodemon** helps in automatically restarting the node application when file changes in the directory are detected. 
+It's configured to start the app in [nodemon](https://github.com/remy/nodemon). This can be changed in package.json scripts
+[nodemon](https://github.com/remy/nodemon) helps in automatically restarting the node application when file changes in the directory are detected. 
 Helpful while developing app.
 
 
 ### other modules used
-**mongoose** is for MongoDB object modeling.
+[mongoose](https://github.com/Automattic/mongoose) is for MongoDB object modeling.
 
-**@hapi/joi** is used as Object schema description language and validator for JavaScript objects.
+[@hapi/joi](https://github.com/hapijs/joi) is used as Object schema description language and validator for JavaScript objects.
 
-**bcryptjs** is used creating hashed passwords.
+[bcryptjs](https://github.com/dcodeIO/bcrypt.js) is used creating hashed passwords.
 
-**jsonwebtoken** for jwt.
+[jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) for jwt.
 
 # 
