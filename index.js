@@ -15,7 +15,7 @@ mongoose.connect(
 //middleware
 app.use(express.json());
 app.use('/accounts', authRoute);
-app.use('/', dummyRoute);
+app.use('/dummy', dummyRoute);
 
 
 app.listen(3000, () => console.log('Server up on port 3000'));

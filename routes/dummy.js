@@ -3,11 +3,20 @@ const { verifyToken } = require('./middleware');
 
 const router = Router();
 
-router.get('/dummy', verifyToken, (req, res) => {
+router.get('/unprotected', (req, res) => {
     res.json({
             data: {
-                name: "xyz",
-                message: "Successfully fetched data!"
+                name: "unprotected data",
+                message: "Successfully fetched unprotected data!"
+            }
+    });
+});
+
+router.get('/protected', verifyToken, (req, res) => {
+    res.json({
+            data: {
+                name: "protected data",
+                message: "Successfully fetched protected data!"
             }
     });
 });
