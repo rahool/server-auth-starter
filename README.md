@@ -1,2 +1,2 @@
 # server-auth-starter
-Node.js API Authentication With JWT starter app
+Node API authentication with JWT starter app
