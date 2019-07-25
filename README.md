@@ -45,7 +45,7 @@ Database connect url and token secret are stored in `.env` file.
 
 
 
-# setup
+### setup
 ```
 git clone https://github.com/rahool/server-auth-starter.git
 npm install
