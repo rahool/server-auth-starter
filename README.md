@@ -60,10 +60,13 @@ It's configured to start the app in **nodemon**. This can be changed in package.
 Helpful while developing app.
 
 
-# other modules used
+### other modules used
 **mongoose** is for MongoDB object modeling.
+
 **@hapi/joi** is used as Object schema description language and validator for JavaScript objects.
-**bcryptjs** is used creating hashed passwords
-**jsonwebtoken** for jwt
+
+**bcryptjs** is used creating hashed passwords.
+
+**jsonwebtoken** for jwt.
 
 # 
