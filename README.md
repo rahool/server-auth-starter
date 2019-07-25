@@ -5,6 +5,7 @@ Node API authentication with JWT starter app
 This starter app will create two endpoints for **register** and **signin**. It uses mongodb to store user information.
 When user signin a jwt token is generated and returned in response. This token can be used to access protected resources on the server.
 
+
 **Registration of user**
 ```
 POST http://localhost:3000/accounts/register
@@ -15,6 +16,7 @@ POST http://localhost:3000/accounts/register
 	"password": "PASSWORD"
 }
 ```
+
 
 **Signin**
 ```
@@ -41,7 +43,6 @@ Authorization : Bearer <ACCESS_TOKEN_RECIEVED_AFTER_SIGNIN>
 
 Database connect url and token secret are stored in `.env` file.
 [dotenv](https://github.com/motdotla/dotenv) node module is used to loads environment variables from a .env file into process.env
-
 
 
 
