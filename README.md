@@ -5,7 +5,7 @@ Node API authentication with JWT starter app
 This starter app will create two endpoints for **register** and **signin**. It uses mongodb to store user information.
 When user signin a jwt token is generated and returned in response. This token can be used to access protected resources on the server.
 
-Registration of user
+**Registration of user**
 ```
 POST http://localhost:3000/accounts/register
 
@@ -16,7 +16,7 @@ POST http://localhost:3000/accounts/register
 }
 ```
 
-Signin
+**Signin**
 ```
 POST http://localhost:3000/accounts/signin
 
@@ -28,7 +28,7 @@ POST http://localhost:3000/accounts/signin
 ```
 
 
-Access protected resource
+**Access protected resource**
 ```
 GET http://localhost:3000/dummy/protected
 ```
